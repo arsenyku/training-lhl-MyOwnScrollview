@@ -56,15 +56,14 @@
         float contentTop = self.contentBounds.origin.y;
         float contentLeft = self.contentBounds.origin.x;
         
-//        NSLog(@"New Bounds: l=%f, r=%f, t=%f, b=%f", panLeft, panRight, panTop, panBottom);
-//        NSLog(@"Content Bounds: l=%f, r=%f, t=%f, b=%f", contentLeft, contentRight, contentTop, contentBottom);
         BOOL allowPan = YES;
+        // The offsets below ensure that at least a small sliver of the
+        // contents always shows on screen.
 		if (panLeft > contentRight - 10 ||       // too far right
             panRight < contentLeft + 30 ||       // too far left
             panBottom < contentTop + 30 ||       // too far up
             panTop > contentBottom - 10 ){       // too far down
             
-//            NSLog(@"-------- NO PAN FOR YOU! ---------");
             allowPan = NO;
             
         }
