@@ -6,13 +6,13 @@
 //  Copyright (c) 2015 asu. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SVAppDelegate.h"
 
-@interface AppDelegate ()
+@interface SVAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SVAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

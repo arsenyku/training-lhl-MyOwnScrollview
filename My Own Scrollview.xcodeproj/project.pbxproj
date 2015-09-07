@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1258B59D1B9DFACF00F88D07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B59C1B9DFACF00F88D07 /* main.m */; };
-		1258B5A01B9DFACF00F88D07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B59F1B9DFACF00F88D07 /* AppDelegate.m */; };
-		1258B5A31B9DFACF00F88D07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B5A21B9DFACF00F88D07 /* ViewController.m */; };
+		1258B5A01B9DFACF00F88D07 /* SVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B59F1B9DFACF00F88D07 /* SVAppDelegate.m */; };
+		1258B5A31B9DFACF00F88D07 /* SVMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B5A21B9DFACF00F88D07 /* SVMainViewController.m */; };
 		1258B5A61B9DFACF00F88D07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1258B5A41B9DFACF00F88D07 /* Main.storyboard */; };
 		1258B5A81B9DFACF00F88D07 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1258B5A71B9DFACF00F88D07 /* Images.xcassets */; };
 		1258B5AB1B9DFACF00F88D07 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1258B5A91B9DFACF00F88D07 /* LaunchScreen.xib */; };
 		1258B5B71B9DFACF00F88D07 /* My_Own_ScrollviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1258B5B61B9DFACF00F88D07 /* My_Own_ScrollviewTests.m */; };
+		126E98A61B9E05E40059518A /* SVMyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 126E98A51B9E05E40059518A /* SVMyScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +31,18 @@
 		1258B5971B9DFACF00F88D07 /* My Own Scrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Own Scrollview.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1258B59B1B9DFACF00F88D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1258B59C1B9DFACF00F88D07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1258B59E1B9DFACF00F88D07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1258B59F1B9DFACF00F88D07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1258B5A11B9DFACF00F88D07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1258B5A21B9DFACF00F88D07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1258B59E1B9DFACF00F88D07 /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
+		1258B59F1B9DFACF00F88D07 /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
+		1258B5A11B9DFACF00F88D07 /* SVMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVMainViewController.h; sourceTree = "<group>"; };
+		1258B5A21B9DFACF00F88D07 /* SVMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVMainViewController.m; sourceTree = "<group>"; };
 		1258B5A51B9DFACF00F88D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1258B5A71B9DFACF00F88D07 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1258B5AA1B9DFACF00F88D07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1258B5B01B9DFACF00F88D07 /* My Own ScrollviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Own ScrollviewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1258B5B51B9DFACF00F88D07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1258B5B61B9DFACF00F88D07 /* My_Own_ScrollviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_Own_ScrollviewTests.m; sourceTree = "<group>"; };
+		126E98A41B9E05E40059518A /* SVMyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVMyScrollView.h; sourceTree = "<group>"; };
+		126E98A51B9E05E40059518A /* SVMyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVMyScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +84,12 @@
 		1258B5991B9DFACF00F88D07 /* My Own Scrollview */ = {
 			isa = PBXGroup;
 			children = (
-				1258B59E1B9DFACF00F88D07 /* AppDelegate.h */,
-				1258B59F1B9DFACF00F88D07 /* AppDelegate.m */,
-				1258B5A11B9DFACF00F88D07 /* ViewController.h */,
-				1258B5A21B9DFACF00F88D07 /* ViewController.m */,
+				1258B59E1B9DFACF00F88D07 /* SVAppDelegate.h */,
+				1258B59F1B9DFACF00F88D07 /* SVAppDelegate.m */,
+				126E98A41B9E05E40059518A /* SVMyScrollView.h */,
+				126E98A51B9E05E40059518A /* SVMyScrollView.m */,
+				1258B5A11B9DFACF00F88D07 /* SVMainViewController.h */,
+				1258B5A21B9DFACF00F88D07 /* SVMainViewController.m */,
 				1258B5A41B9DFACF00F88D07 /* Main.storyboard */,
 				1258B5A71B9DFACF00F88D07 /* Images.xcassets */,
 				1258B5A91B9DFACF00F88D07 /* LaunchScreen.xib */,
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1258B5A31B9DFACF00F88D07 /* ViewController.m in Sources */,
-				1258B5A01B9DFACF00F88D07 /* AppDelegate.m in Sources */,
+				1258B5A31B9DFACF00F88D07 /* SVMainViewController.m in Sources */,
+				126E98A61B9E05E40059518A /* SVMyScrollView.m in Sources */,
+				1258B5A01B9DFACF00F88D07 /* SVAppDelegate.m in Sources */,
 				1258B59D1B9DFACF00F88D07 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				1258B5BC1B9DFACF00F88D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1258B5BD1B9DFACF00F88D07 /* Build configuration list for PBXNativeTarget "My Own ScrollviewTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				1258B5BF1B9DFACF00F88D07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
