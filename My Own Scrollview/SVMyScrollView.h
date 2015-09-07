@@ -9,5 +9,4 @@
 #import <UIKit/UIKit.h>
 
 @interface SVMyScrollView : UIView
-@property (assign, nonatomic) CGSize contentSize;
 @end
